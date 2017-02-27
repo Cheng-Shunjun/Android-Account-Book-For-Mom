@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+   	android:layout_height="?android:attr/listPreferredItemHeight"
+   	android:background="@drawable/listviewbackground">
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="fill_parent"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_marginLeft="12dp"
+        android:gravity="center_vertical"
+        android:singleLine="true" 
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/item_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_marginLeft="120dip"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/item_time"
+        android:layout_width="wrap_content"
+      	android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp" 
+        android:gravity="center_vertical"
+        android:singleLine="true" 
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    
+    
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">记账</string>
+    <string name="action_add_group">添加分组</string>
+    <string name="action_refresh">刷新数据</string>
+    <string name="add_list">添加账单</string>
+    <string name="delete_group">删除分组</string>
+    <string name="rename_group">修改名称</string>
+    <string name="cancel">取消</string>
+    <string name="edit_list">查看账单</string>
+    <string name="rename_list">修改名称</string>
+    <string name="delete_list">删除账单</string>
+    <string name="edit_people">编辑</string>
+    <string name="delete_people">删除</string>
+    <string name="action_soft_info">软件声明</string>
+    <string name="copyright">  &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;软件著作权为（月半弯1832085997@qq.com).   
+        本软件创作意图在于帮助家乡人民在每年一度的卷心菜批量出售时算账使用，
+        该软件公开免费，但您不能私自使用它作商业用途！	</string>
+
+    <drawable name="clr_normal">#118811</drawable>
+    <drawable name="clr_pressed">#558811</drawable>
+    <drawable name="list_normal">#cccccc</drawable>
+    <drawable name="list_active">#dddd88</drawable>
+    <drawable name="list_pressed">#dddd88</drawable>
+
+    <string name="title_activity_list_edit">MainActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- LIST BORDER COLOR -->
+    <color name="rounded_container_border">#ffb7babb</color>
+
+    <!-- ITEM BACKGROUND COLOR - STATE - DEFAULT -->
+    <color name="base_start_color_default">#FFFFFF</color>
+    <color name="base_end_color_default">#FFFFFF</color>
+
+    <!-- ITEM BACKGROUND COLOR - STATE - PRESSED -->
+    <color name="base_start_color_pressed">#ff3590c4</color>
+    <color name="base_end_color_pressed">#ff2570ba</color>
+
+    <!-- ITEM TEXT COLORS - STATES - PRESSED AND DEFAULT -->
+    <color name="text_color_default">#000000</color>
+    <color name="text_color_pressed">#ffffff</color>
+
+    <string name="title_activity_soft_info">SoftInfoActivity</string>
+
+</resources>
